@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: :0;
+}
+body {
+  text-align: center;
+  background: url("../images/gm_a_chorus_line.jpg");
+  background-size: cover;
+  color: #fff;
+  font-family: Bookman;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 48px;
+	color: black;
+	background: #FFFFFF;
+}
+p {
+	font-size: 24px;
+}
+nav a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+}
+a {
+	color: white;
+}
+footer {
+	position: absolute;
+   	bottom: 0;
+  	width: 96%;
+   	height: 15px;
+   	background-color: #FFFFFF; 
+   	padding: 20px;
+}
+#slogan {
+	font-style: italic;
+}
+#job {
+	text-transform: uppercase;
+	color: #DED2E8;
+}
+#email {
+	font-style: italic;
+	color: #000000;
+}
+
+
