@@ -6,19 +6,15 @@
 }
 body {
   text-align: center;
-  background: url("../images/gm_a_chorus_line.jpg");
+  background: url("../images/gm_a_chorus_line.jpg") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   font-family: Bookman;
   font-size: 20px;
   letter-spacing: 2px;
-  width: 100%;
 }
 header {
 	width: 100%;
-/*	background-color: #FFED74;*/
-/*	border: 1px black solid;*/
-/*	padding: 20px;*/
 }
 h1 {
 	text-transform: uppercase;
@@ -48,17 +44,17 @@ a {
 }
 footer {
 	text-transform: uppercase;
-	position: bottom;
+	position: fixed;
    	bottom: 0;
   	width: 100%;
    	height: 15px;
    	background-color: #FFFFFF; 
    	padding: 20px;
    	text-align: center;
+   	align-items: flex-end;
 }
 .wrapper {
 	margin: auto;
-/*	padding: 20px;*/
 }
 .navlinks {
 	font-size: 20px;
@@ -68,7 +64,7 @@ footer {
 	margin: 0 20px;
 	letter-spacing: 2px;
 	background: blueviolet;
-	border:none;
+	border: 2px solid black;
 	text-decoration: none;
 	border-radius: 25px;
 }
@@ -97,25 +93,22 @@ footer {
 }
 .column {
 	float: left;
-	width: 100%;
+	width: 90%;
 	height: 260px;
 	padding: 20px;
 	margin: 0;
 }
 #three_column {
-/*	background-color: #FFB7CF;*/
 	width: 100%;
 	padding: 20px;
 }
 #column2 {
-/*	background-color: #E582A2;*/
-	width: 45%;
-	padding: 22px;
+	width: 44%;
+	padding: 3%;
 }
 #column1, #column3 {
-/*	background-color: #E55B88;*/
-	padding: 22px;
-	width: 20%;
+	padding: 1%;
+	width: 19%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -125,4 +118,30 @@ footer {
 	clear: both;
 	height: 0;
 }
+@media only screen and (max-width: 775px) {
+	#column1, #column2, #column3 {
+		float: none;
+		width: 100%;
+		display: inline-block;
+	}
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	.headshot {
+		max-width: 75%;
+	}
+}
+@media only screen and (max-width: 540px) {
+	#job, #slogan {
+		font-size: 16px;
+	}
+	.headshot {
+		width: 60%;
+	}
+
+
+
+	
 
