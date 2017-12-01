@@ -134,8 +134,41 @@ nav {
 #toggle {
 	display: none;
 }
-.bio {
+#bio {
 	text-align: left;
+	font-size: 1em;
+	background-color: rgba(000, 0, 0, .5);
+	border: 1px white solid;
+	margin: 25%;
+	padding: 1em;
+}
+#about_nav {
+	margin-bottom: -25%;
+}
+#coming_soon {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'Muli', sans-serif;
+	padding: 1%;
+	width: 60%;
+	margin: 20%;
+	background-color: rgba(000, 0, 0, .5);
+	border: 1px white solid;
+}
+#uia {
+	background-color: white;
+	margin: 5%;
+}
+#kristen {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-family: 'Muli', sans-serif;
+	padding: 1%;
+	width: 75%;
+	margin: 0% 12% 12% 12%;
+	background-color: rgba(000, 0, 0, .5);
+	border: 1px white solid;
+
 }
 label {
 	font-size: 1.2em;
